@@ -1,0 +1,133 @@
+body {
+  background-image: url("bilder/eks2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+header {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 150%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-container {
+  color: white;
+  background-color: transparent;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+.artikkel-container-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.artikkel-container {
+  max-width: 1100px;
+  margin: 30px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 100%;
+
+}
+
+.artikkel {
+  padding: 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex-basis: 30%;
+  border: solid;
+}
+.artikkel:nth-child(1){background-color: transparent;}
+.artikkel:nth-child(2){background-color: transparent;}
+
+.knapp {
+  text-decoration: none;
+  color: white;
+  border: 2px;
+  border-radius: 4px;
+}
+.knapp:active {
+  background-color: grey;
+}
+
+footer {
+  postion: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  border: 1px solid white;
+  text-align: left;
+  background-color: Transparent;
+  color: white;
+  padding: 4px 30px 4px 8px;
+  font-size: 40%;
+
+}
+table td {
+  border: 1px solid white;
+  padding: 4px 8px;
+  font-size: 35%;
+}
+
+table tr:nth-child(odd) td {
+  border: 1px solid white;
+  background-color: grey;
+  font-size: 30%;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 5px;
+}
+a:link {
+  color; white;
+}
+a:visited {
+  color: white;
+}
+a:active{
+  border: 2px solid gray;
+}
+.artikkel h4 {
+  font-size: 70%;
+}
+
+.artikkel p {
+  font-size: 50%;
+
+}
+.artikkel a {
+  font-size: 15px;
+}
+
+.bilde {
+  width: 100%;
+}
